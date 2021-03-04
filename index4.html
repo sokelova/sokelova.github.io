@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel='stylesheet' type='text/css' href='./css/style.css'>
+    <script type='text/javascript' src='./js/javascript.js'></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>Высшая Школа Программирвания</title>
+  </head>
+<!-- JS -->
+$('#myModal').on('shown.bs.modal', function () {
+$('#myInput').trigger('focus')
+})
+  <body>
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top id="mainNav>
+		<div class="container">
+			<a class="navbar-brand js-scroll-trigger" href="#"><img src="./img/logo.png" class="img-fluid" width="200" alt=""></a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				Меню
+				<i class="fas fa-bars ml-l"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav text-uppercase ml-auto text-center">
+					<li class="nav-item"><a href="#onas" class="nav-link js-scroll-trigger">О нас</a></li>
+					<li class="nav-item"><a href="#napr" class="nav-link js-scroll-trigger">Направления</a></li>
+					<li class="nav-item"><a href="#zap" class="nav-link js-scroll-trigger">Записаться</a></li>
+					<li class="nav-item"><a href="#kont" class="nav-link js-scroll-trigger">Контакты</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<header>
+		<div class="video-background"></div>
+	   	<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" width="100%" height="100%">
+	        <source src="./video/video.mp4" type="video/mp4">
+	    </video>
+	    <a name="onas"></a>
+	</header>
+	<div class="container" id="content-1">
+		<div class="row">
+			<div class="col-sm-6">
+				<h2 class="text-center text-bold text-black">Высшая Школа Программирования</h2>
+				<p class="text-center text-black-50">
+					Мы имеем государственную лицензию и большой опыт в своем деле - работаем с 1996 года. Образование детей и взрослых обеспечивает профессиональную ориентацию, а так же является надежным комплектом универсальных знаний в сфере IT, которые пригодятся абсолютно в любой отрасли!
+					Мы консультируем как государственные структуры, так и бизнес-сектор, сотрудничаем с более чем 1000 IT-Компаниями по всему миру. Программирование - один из ключевых навыков, которому нужно учиться уже сегодня. Каждый год Школа выпускает высококвалифицированных IT-специалистов, готовых после обучения приступить к решению серьезных проектов в ведущих компаниях России и других стран! По мнению топовых HR-экспертов наши выпускники являются одними из самых востребованных на рынке труда.
+					Считаете, что все это можно узнать из книг и интернета? Но бумага не ответит на ваши вопросы, а монитор не даст совета. Приходите и учитесь с успешными менторами и наставниками - всему, что связано с миром высоких технологий.
+				</p>
+			</div>
+			<div class="col-sm-6">
+				<img src="./img/image 1.png" class="img-fluid">
+			</div>
+		</div>
+	</div>
+	<div id="ddd">
+		<div class="container" id="content-2">
+			<div class="row">
+				<div class="col-sm-6">
+					<img src="./img/image 2.png" class="img-fluid">
+				</div>
+				<div class="col-sm-6">
+					<h2 class="text-center text-bold text-white">Наша Команда</h2>
+					<p class="text-center text-white">
+						Команда лучших профессионалов своего дела — наша отличительная особенность. Мы объединяем самых лучших специалистов в области информационных технологий, которые обладают педагогическим подходом к каждому своему ученику. С 1996 года мы непрерывно занимаемся автоматизацией бизнес-процессов наших клиентов, снижаем издержки и увеличиваем прибыль - все это наша практика фриаланс, для того чтобы не терять свою квалификацию как практикующих специалистов. Параллельно занимаясь образовательной деятельностью, обучением учащихся тому, что умеем сами. Мы постоянно улучшаем учебные программы, чтобы они не теряли свою актуальность и работаем на результат. Неповторимое лицо Школы, ее особенная атмосфера - это сочетание традиций и смелых новаторских решений. Мы любим то что мы делаем!
+					</p>
+				</div>
+			</div>
+		</div>
+		<a name="napr"></a>
+	</div>
+	<div class="container" id="content-3">
+		<h2 class="text-center text-bold text-black">Направления</h2>
+			<div class="row">
+				<div class="col-sm-4 curs" data-toggle="modal" data-target="#Modal-1">			
+					<img src="./img/k.jpg" class="img-fluid">
+					<h3 class="text-center text-bold text-black">Краткосрочный курс</h3>
+					<p class="text-center text-black-50 font-italic">Дисциплины на выбор</p>	
+				</div>
+				<div class="modal fade" id="Modal-1" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h3 class="modal-title" id="ModalLabel">Краткосрочный курс</h3>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				       <img src="./img/k.jpg" class="img-fluid">
+				       		<p class="text-center text-black-50 font-italic">
+				       			Вы имеете возможность освоить каждую учебную программу в короткие сроки, тем самым скомпоновать себе индивидуальную учебную программу. Данные компьютерные курсы полезны и открывают перед лицом, прошедшим их, новые карьерные возможности. Главная цель - повысить качество профессиональных навыков слушателей, последовательно усовершенствовать и дополнить базу их знаний.
+				       		</p>
+				      		<p class="text-center text-bolder">
+								Индивидуальный график занятий в группе.
+								Срок обучения от 1 до 3 месяцев.
+							</p>
+							<h5 class="text-center">Стоимость обучения</h5>
+							<table class="table table-hover text-center">
+								<tbody>
+									<tr>
+								    	<td>Ак. Час</td>
+								      	<td>1000</td>
+								    </tr>
+								</tbody>
+							</table>
+							<div class="text-center">
+								<button class="text-center text-white btn-lg" id="btn">Узнать подробнее</button>
+							</div>							
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				<div class="col-sm-4 curs" data-toggle="modal" data-target="#Modal-2">
+					<img src="./img/g.jpg" class="img-fluid">
+					<h3 class="text-center text-bold text-black">Графический дизайн</h3>
+					<p class="text-center text-black-50 font-italic">Дизайн интерьера, обработка видео</p>
+				</div>
+				<div class="modal fade" id="Modal-2" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h3 class="modal-title" id="ModalLabel">Графический дизайн</h3>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				       <img src="./img/g.jpg" class="img-fluid">
+				     		<p class="text-center text-black-50 font-italic">
+				     			Всё что нас окружает в повседневной жизни, идеи, макеты, реклама, здания... Графический дизайн как дисциплину можно отнести к числу художественных и профессиональных дисциплин, фокусирующихся на визуальной коммуникации и представлении. Разработка фирменного стиля, дизайн интерьера, обработка видео, работа над спецэффектами.
+				     		</p>
+				       		<h3 class="text-center text-bold">Очная форма обучения</h3>
+							<p class="text-center">
+								Занятия проходят 2 раза в неделю по 2 ак.часа.
+								Или 1 раз в неделю 4 ак.часа
+								Полный срок обучения составляет 5 лет
+							</p>
+							<h5 class="text-center">Стоимость обучения</h5>
+							<table class="table table-hover text-center">
+								<tbody>
+									<tr>
+								    	<td>Месяц</td>
+								      	<td>6000</td>
+								    </tr>
+								    <tr>
+								      	<td>Квартал</td>
+								      	<td>18000</td>
+								    </tr>
+								    <tr>
+								      	<td>Семестр</td>
+								      	<td>36000</td>
+								    </tr>
+								    <tr>
+								      	<td>Год</td>
+								      	<td>72000</td>
+								    </tr>
+								</tbody>
+							</table>
+							<div class="text-center">
+								<button class="text-center text-white btn-lg" id="btn">Узнать подробнее</button>
+							</div>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				<div class="col-sm-4 curs" data-toggle="modal" data-target="#Modal-3">
+					<img src="./img/p.jpg" class="img-fluid">
+					<h3 class="text-center text-bold text-black">Веб-разработка</h3>
+					<p class="text-center text-black-50 font-italic">Создание сайта/веб-сервиса с нуля</p>
+				</div>
+				<div class="modal fade" id="Modal-3" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h3 class="modal-title" id="ModalLabel">Веб-разработка</h3>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				       <img src="./img/p.jpg" class="img-fluid">
+				     			<p class="text-center text-black-50 font-italic">
+				     				Мы переходим в цифровой мир, мир Интернет-технологий - многие уже живут в этом мире больше чем в реальном. Все что было привычным для нас в обыденной жизни находится теперь в сети. Верстка web-страниц, написанние сайтов, SEO оптимизация, дизайн сайтов, разработка web-приложений, программирование чат-ботов.</p>
+								<h3 class="text-center text-bold">
+									Очная форма обучения
+								</h3>
+								<p class="text-center">
+									Занятия проходят 2 раза в неделю по 2 ак.часа.
+									Или 1 раз в неделю 4 ак.часа
+									Полный срок обучения составляет 5 лет
+								</p>
+								<h3 class="text-center text-bold">
+									Ускоренная форма обучения
+								</h3>
+								<p class="text-center">
+									Занятия проходят 3 раза в неделю по 4 ак.часа.
+									Полный срок обучения составляет 2 года.
+								</p>
+								<h5 class="text-center">Стоимость обучения</h5>
+								<table class="table table-hover text-center">
+								<tbody>
+									<tr>
+								    	<td>Месяц</td>
+								      	<td>6000</td>
+								    </tr>
+								    <tr>
+								      	<td>Квартал</td>
+								      	<td>18000</td>
+								    </tr>
+								    <tr>
+								      	<td>Семестр</td>
+								      	<td>36000</td>
+								    </tr>
+								    <tr>
+								      	<td>Год</td>
+								      	<td>72000</td>
+								    </tr>
+								</tbody>
+							</table>
+								<div class="text-center">
+									<button class="text-center text-white btn-lg" id="btn">Узнать подробнее</button>
+								</div>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				<div class="col-sm-4 curs" data-toggle="modal" data-target="#Modal-4">
+					<img src="./img/t.jpg" class="img-fluid">
+					<h3 class="text-center text-bold text-black">Программирование</h3>
+					<p class="text-center text-black-50 font-italic">Разработка ПО/игр</p>
+				</div>
+				<div class="modal fade" id="Modal-4" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h3 class="modal-title" id="ModalLabel">Программирование</h3>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				       <img src="./img/p.jpg" class="img-fluid">
+				       		<p class="text-center text-black-50 font-italic">
+				       			Востребованное направление нашего времени. В учебной программе более 11 языков программирования. Построение алгоритмов работы электронных устройств: от компьютеров до космических спутников. Разработка игр и программного обеспечения для компьютерных и мобильных платформ.
+				       		</p>
+				       		<h3 class="text-center text-bold">
+									Очная форма обучения
+								</h3>
+								<p class="text-center">
+									Занятия проходят 2 раза в неделю по 2 ак.часа.
+									Или 1 раз в неделю 4 ак.часа
+									Полный срок обучения составляет 5 лет
+								</p>
+							<h3 class="text-center text-bold">Заочная форма обучения</h3>
+							<p class="text-center">
+								Онлайн занятия в удобное для Вас время.
+								Срок от 1 месяца до 5 лет
+							</p>
+							<h5 class="text-center">Стоимость обучения</h5>
+							<table class="table table-hover text-center">
+								<tbody>
+									<tr>
+								    	<td>Месяц</td>
+								      	<td>6000</td>
+								    </tr>
+								    <tr>
+								      	<td>Квартал</td>
+								      	<td>18000</td>
+								    </tr>
+								    <tr>
+								      	<td>Семестр</td>
+								      	<td>36000</td>
+								    </tr>
+								    <tr>
+								      	<td>Год</td>
+								      	<td>72000</td>
+								    </tr>
+								</tbody>
+							</table>
+							<div class="text-center">
+								<button class="text-center text-white btn-lg" id="btn">Узнать подробнее</button>
+							</div>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				<div class="col-sm-4 curs"  data-toggle="modal" data-target="#Modal-5">
+					<img src="./img/s.jpg" class="img-fluid">
+					<h3 class="text-center text-bold text-black">Системное администрирование</h3>
+					<p class="text-center text-black-50 font-italic">Организация процесса работы</p>
+				</div>
+				<div class="modal fade" id="Modal-5" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h3 class="modal-title" id="ModalLabel">Системное администрирование</h3>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				       <img src="./img/s.jpg" class="img-fluid">
+							<p class="text-center text-black-50 font-italic">
+								Системное администрирование - это не просто техническое обслуживание, а весьма разносторонний процесс, требующий продуманнной стратегии и высокой квалификации специалиста. Обеспечение штатной работы парка компьютерной техники, сети и серверов, предоставление и ограничение доступа к различным ресурсам, разработка и внедрение политики безопасности.
+							</p>
+							<h3 class="text-center text-bold">
+									Очная форма обучения
+							</h3>
+							<p class="text-center">
+								Занятия проходят 2 раза в неделю по 2 ак.часа.
+								Или 1 раз в неделю 4 ак.часа
+								Полный срок обучения составляет 5 лет
+							</p>
+							<h5 class="text-center">Стоимость обучения</h5>
+							<table class="table table-hover text-center">
+								<tbody>
+									<tr>
+								    	<td>Месяц</td>
+								      	<td>6000</td>
+								    </tr>
+								    <tr>
+								      	<td>Квартал</td>
+								      	<td>18000</td>
+								    </tr>
+								    <tr>
+								      	<td>Семестр</td>
+								      	<td>36000</td>
+								    </tr>
+								    <tr>
+								      	<td>Год</td>
+								      	<td>72000</td>
+								    </tr>
+								</tbody>
+							</table>
+							<div class="text-center">
+								<button class="text-center text-white btn-lg" id="btn">Узнать подробнее</button>
+							</div>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				<div class="col-sm-4 curs" data-toggle="modal" data-target="#Modal-6">
+					<img src="./img/y.jpg" class="img-fluid">
+					<h3 class="text-center text-bold text-black">Ускоренное обучение</h3>
+					<p class="text-center text-black-50 font-italic">Профессия за 2 года</p>
+				</div>
+				<div class="modal fade" id="Modal-6" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h3 class="modal-title" id="ModalLabel">Ускоренное обучение</h3>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				       <img src="./img/s.jpg" class="img-fluid">
+							<p class="text-center text-black-50">
+								Ускоренная программа обучения предусмотрена для тех, кто решил освоить профессию мечты или сменить сферу деятельности. Данная форма обучения подходит для выпускников 9-11 классов и взрослых. У Вас будет возможность за 24 месяца стать дипломированным специалистом в одном из наших направлениях.
+							</p>
+							<h3 class="text-center text-bold">Очная форма обучения</h3>
+							<p class="text-center">
+								Занятия проходят 3 раза в неделю по 4 ак.часа.
+								Полный срок обучения составляет 2 года
+							</p>
+							<h5 class="text-center">Стоимость обучения</h5>
+							<table class="table table-hover text-center">
+								<tbody>
+								    <tr>
+								      	<td>Семестр</td>
+								      	<td>36000</td>
+								    </tr>
+								    <tr>
+								      	<td>Год</td>
+								      	<td>72000</td>
+								    </tr>
+								</tbody>
+							</table>
+							<div class="text-center">
+								<button class="text-center text-white btn-lg" id="btn">Узнать подробнее</button>
+							</div>
+				      </div>
+	    			</div>
+	 			</div>
+			</div>
+		</div>
+	</div>
+	<div id="www">
+		<div class="container" id="content-5">
+			<a name="zap"></a>
+			<h2 class="text-left text-white">Готовы преступить к обучению?</h2>
+			<h3 class="text-left text-white">Давайте назначим время для тестирования в собеседовании при поступлении</h3>
+			<div class="text-left" data-toggle="modal" data-target="#Modal-7">
+				<button class="text-center text-black btn-lg rounded" id="btn-5">Записаться/Позвонить</button>
+			</div>
+		</div>
+		<div class="modal fade" id="Modal-7" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			    	<div class="modal-header">
+			    		<h3 class="modal-title" id="ModalLabel">Запись на собеседование</h3>
+			        	<h3 class="modal-title" id="ModalLabel"></h3>
+			        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          		<span aria-hidden="true">&times;</span>
+			        	</button>
+			      	</div>
+			      	<div class="modal-body">
+			      		<div class="input-group input-group-lg int-gr">
+						  <input type="text" id="mod_name" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Имя" required pattern="[A-Z|a-z]{0,20}[А-Я|а-я]{0,20}">
+						  <div class="col-sm-12" id="mod_id_name"></div>
+						</div>
+						<div class="input-group input-group-lg int-gr">
+						  <input type="text" id="mod_fam" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Фамилия" required pattern="[A-Z|a-z]{0,20}[А-Я|а-я]{0,20}">
+						  <div class="col-sm-12" id="mod_id_fam"></div>
+						</div>
+						<div class="input-group input-group-lg int-gr">
+						  <input type="text" id="mod_phone" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Номер телефона" required pattern="[0-9]{11}">
+						  <div class="col-sm-12" id="mod_id_phone"></div>
+						</div>
+						<div class="d-flex justify-content-around">
+							<button class="text-center text-white btn-lg" type="submit" id="btn" onclick="btn()">Записаться</button>
+							<button type="button" class="text-center text-white btn-lg" id="btn" data-dismiss="modal"><a href="+79180451379"></a>Позвонить</button>
+						</div>
+			      	</div>
+			    </div>
+			</div>
+		</div>
+		<a name="kont"></a>
+	</div>
+	<div class="bg-dark" id="kkk">
+		<div class="container" id="content-6">
+			<h2 class="text-center text-white">НАШИ КОНТАКТЫ</h2>
+			<p class="text-center text-white">
+				Главный офис находится в центральном районе города, что позволяет любому слушателю удачно добраться до места обучения
+			</p>
+			<p class="text-center text-white">
+				г. Краснодар, ул. Базовская, дом 254<br>
+				(Центральный район, угол ул. Базовская/ул. Промышленная)<br>
+				Приемная комиссия<br>
+				8 (988) 487-26-95 - многоканальный<br>
+				e-mail: nochu-cit@mail.ru<br>
+				Приемные дни: СБ/ВС с 14:00 до 18:00<br>
+			</p>
+			<div id="map"><a href="https://yandex.ru/maps/35/krasnodar/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Краснодар</a><a href="https://yandex.ru/maps/35/krasnodar/?from=api-maps&ll=39.005726%2C45.036947&mode=usermaps&origin=jsapi_2_1_78&um=constructor%3A2a6983be9c97065e2ceaef147904539f2b9ac817c6f8c250dc09dcf684116c22&utm_medium=mapframe&utm_source=maps&z=14" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс.Карты — поиск мест и адресов, городской транспорт</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUQa-q6HB" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+			<div id="social" class="row d-flex justify-content-center text-center">
+				<div class="col-sm-1">
+					<a href="https://www.facebook.com/Schoolprogrammkrd/" target="_blank">
+						<img src="./img/facebook.svg" class="img-fluid svg-ic" width="50">
+					</a>
+				</div>
+				<div class="col-sm-1">
+					<a href="https://vk.com/school_programmistov" target="_blank">
+						<img src="./img/vk.svg" class="img-fluid svg-ic" width="50">
+					</a>
+				</div>
+				<div class="col-sm-1">
+					<a href="https://www.instagram.com/itproger_krd/" target="_blank">
+						<img src="./img/instagram.svg" class="img-fluid svg-ic" width="50">
+					</a>
+				</div>
+				<div class="col-sm-1">
+					<a href="https://api.whatsapp.com/send?phone=79884872695" target="_blank">
+						<img src="./img/whatsapp.svg" class="img-fluid svg-ic" width="50">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="bg-dark text-center text-white">
+	  	<div class="text-center p-3" id="foot">
+	   	 	© Copyright 2020 | Yexom.com<br>
+	    <a class="text-danger" href="https://mdbootstrap.com/">Политика конфиденциальности</a>
+	 	 </div>
+	</footer>
+	
+		
+	
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

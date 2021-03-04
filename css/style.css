@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+}
+.video-background {
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.video-background video{
+    position:absolute;
+    top:0;
+    left:0;
+    object-fit:cover;
+}
+#mainNav{
+  
+}
+#navbarResponsive a{
+    color: white;
+    font-size: 18px;
+    transition: color 0.5s;
+}
+#navbarResponsive a:hover{
+    color: red;
+}
+#content-1 h2{
+    font-size: 35px;
+    margin: 10% 0 2% 0;
+}
+#content-1 img{
+     margin: 10% 0 2% 0;
+}
+#content-2 h2{
+    font-size: 40px;
+    margin: 10% 0 5% 0;
+}
+#content-2 img{
+     margin: 10% 0 5% 0;
+}
+#content-3 h2{
+    font-size: 40px;
+    margin: 7% 0 3% 0;
+}
+#content-4 h2{
+    font-size: 40px;
+    margin: 5% 0 0 0;
+}
+#content-4 p{
+    margin: 0 0 5% 0;
+}
+#content-4 h3{
+    margin: 5% 0 0 0;
+}
+#content-5 h2{
+    font-size: 50px;
+    padding: 20% 0 0 0;
+}
+#content-6{
+    margin-top: -2%;
+}
+#content-5 h3{
+    margin: 2% 0 0 0;
+}
+#content-6 h2{
+    padding: 7% 0 2% 0;
+}
+#ddd{
+    margin: 5% 0 2% 0;
+    width: 100%;
+    background-image: url(../img/w3.jpg);
+    background-size: cover;
+}
+#btn{
+    background: red;
+    border: none;
+}
+.marg{
+	padding: 2%;
+}
+#btn-5{
+    margin: 5% 0 20% 0;
+    border: none;
+}
+.nap{
+	display: block;
+	width: 100%;
+	background: rgba(240, 52, 52, 0.5);
+	transition: display 0.5s;
+}
+.nap:hover{
+	display: none;
+}
+.curs{
+    cursor: pointer;
+}
+#www{
+    width: 100%;
+    margin: 5% 0 2% 0;
+    background-image: url(../img/z-1.jpg); 
+    background-size: cover;
+}
+.int-gr{
+    margin: 0 0 5% 0;
+}
+#social{
+    padding: 2% 0;
+}
+.svg-ic{
+    filter: invert(1);
+}
+#map{
+    padding: 2% 0;
+}
+#foot{
+    background-color: rgba(0, 0, 0, 0.5);"
+}
